@@ -1,0 +1,46 @@
+#include "/home/wada/.Xresources.d/includes"
+
+! --- Special colors ---
+URxvt*background: COLOUR_THEME_BG
+URxvt*foreground: COLOUR_THEME_FG
+ 
+! --- Standard colors ---
+URxvt.color0: COLOUR_THEME_BLACK
+URxvt.color1: COLOUR_THEME_DARK_RED
+URxvt.color2: COLOUR_THEME_DARK_GREEN
+URxvt.color3: COLOUR_THEME_DARK_YELLOW
+URxvt.color4: COLOUR_THEME_DARK_BLUE
+URxvt.color5: COLOUR_THEME_DARK_MAGENTA
+URxvt.color6: COLOUR_THEME_DARK_CYAN
+URxvt.color7: COLOUR_THEME_LIGHT_GREY
+
+URxvt.color8: COLOUR_THEME_DARK_GREY
+URxvt.color9: COLOUR_THEME_LIGHT_RED
+URxvt.color10: COLOUR_THEME_LIGHT_GREEN
+URxvt.color11: COLOUR_THEME_LIGHT_YELLOW
+URxvt.color12: COLOUR_THEME_LIGHT_BLUE
+URxvt.color13: COLOUR_THEME_LIGHT_MAGENTA
+URxvt.color14: COLOUR_THEME_LIGHT_CYAN
+URxvt.color15: COLOUR_THEME_WHITE
+
+URxvt.colorBD: COLOUR_THEME_BD
+URxvt.colorIT: COLOUR_THEME_IT
+URxvt.colorUL: COLOUR_THEME_UL
+
+! Fonts
+URxvt*font: xft:Terminus:pixelsize=10
+
+! Others
+URxvt*borderLess: False
+URxvt*hinting: True
+URxvt*antialias: True
+URxvt*scrollBar: False
+URxvt*scrollTtyOutput: False
+URxvt*scrollTtyKeypress: True
+URxvt*secondaryScroll: True
+URxvt*saveLines: 8000
+
+! Navegator
+URxvt.perl-ext-common:	default,matcher
+URxvt.urlLauncher:	/usr/bin/vimb
+URxvt.matcher.button:	1

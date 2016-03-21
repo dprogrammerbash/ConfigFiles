@@ -1,0 +1,39 @@
+set hintkeys=fdsartgbvecwxqyiopmnhzulkj
+set editor-command=urxvt -e vim %s
+set history-max-items=500
+set strict-focus=true
+
+set download-path=~/Downloads
+
+set status-font=ProFont
+set status-color-fg=#DCDCCC
+set status-color-bg=#151515
+set status-ssl-font=ProFont
+set status-ssl-color-fg=#87FF00
+set status-ssl-color-bg=#151515
+set status-sslinvalid-font=ProFont
+set status-sslinvalid-color-fg=#890C96
+set status-sslinvalid-color-bg=#151515
+
+set input-font-normal=ProFont
+set input-font-error=ProFont
+set input-autohide=true
+set input-bg-normal=#151515
+set input-bg-error=#151515
+set input-fg-normal=#DCDCCC
+set input-fg-error=#E90C86
+
+set completion-font=ProFont
+set completion-bg-normal=#151515
+set completion-bg-active=#151515
+set completion-fg-normal=#DCDCCC
+set completion-fg-active=#87FF00
+
+shortcut-default duck
+
+shortcut-add google=https://www.google.com.mx/?gfe_rd=cr#q=$0
+shortcut-add duck=https://duckduckgo.com/?q=$0
+shortcut-add wikiarch=https://wiki.archlinux.org/index.php/$0
+shortcut-add youtube=https://www.youtube.com/results?search_query=$0
+shortcut-add wiki=http://en.wikipedia.org/wiki/$0
+shortcut-add pirate=https://thepiratebay.se/search/$0/0/99/0

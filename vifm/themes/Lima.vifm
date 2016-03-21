@@ -1,0 +1,30 @@
+" Lima vifm color scheme
+" By Wada Erna
+
+" Colors 
+" Dark Gray = 233
+" Black = 232
+" White = 255
+" Green = 3
+" Red = 160
+" Pink = 5
+" Purple = 98
+" Blue = 6
+
+highlight Win cterm=none ctermfg=255 ctermbg=233
+highlight Directory cterm=bold ctermfg=98 ctermbg=default
+highlight Link cterm=bold ctermfg=yellow ctermbg=default
+highlight BrokenLink cterm=bold ctermfg=160 ctermbg=default
+highlight Socket cterm=bold ctermfg=magenta ctermbg=default
+highlight Device cterm=bold ctermfg=160 ctermbg=default
+highlight Fifo cterm=bold ctermfg=cyan ctermbg=default
+highlight Executable cterm=bold ctermfg=3 ctermbg=default
+highlight Selected cterm=bold ctermfg=6 ctermbg=default
+highlight CurrLine cterm=bold ctermfg=255 ctermbg=5
+highlight TopLine cterm=none ctermfg=255 ctermbg=232
+highlight TopLineSel cterm=bold ctermfg=98 ctermbg=232
+highlight StatusLine cterm=bold ctermfg=255 ctermbg=232
+highlight WildMenu cterm=underline,reverse ctermfg=255 ctermbg=232
+highlight CmdLine cterm=none ctermfg=255 ctermbg=232
+highlight ErrorMsg cterm=none ctermfg=160 ctermbg=232
+highlight Border cterm=none ctermfg=232 ctermbg=232

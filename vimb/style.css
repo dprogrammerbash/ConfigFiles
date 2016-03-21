@@ -1,0 +1,40 @@
+._hintLabel {
+    font-family: Monospace;
+    font-size: 0.85em !important;
+    text-transform: uppercase !important;
+    background-color: #FFF !important;
+    color: #000 !important;
+    opacity: 1;
+}
+
+._hintLabel._hintFocus {
+    font-family: Monospace;
+    font-size: 0.85em !important;
+    text-transform: uppercase !important;
+    background-color: #000 !important;
+    color: #FFF !important;
+    opacity: 1;
+}
+
+._hintElem {
+    color: #DCDCCC !important;
+    background-color: #151515 !important;
+    opacity: 0.5;
+}
+
+._hintElem._hintFocus {
+    color: #DCDCCC !important;
+    background-color: #151515 !important;
+    opacity: 0.5;
+}
+._hintElem img{
+    color: #DCDCCC !important;
+    background-color: #151515 !important;
+    opacity: 0.2;
+}
+
+._hintElem._hintFocus img{
+    color: #DCDCCC !important;
+    background-color: #151515 !important;
+    opacity: 0.2;
+}

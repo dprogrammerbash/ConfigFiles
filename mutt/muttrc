@@ -1,0 +1,15 @@
+set imap_user = email
+set imap_pass = "password"
+set folder = imaps://imap.openmailbox.org
+set spoolfile = +INBOX
+
+set imap_keepalive = 300
+set mail_check = 120
+
+set record = +Sent
+set realname = 'name lastname'
+set from = email
+set use_from = yes
+
+set smtp_url = "smtps://$imap_user:$imap_pass@smtp.openmailbox.org:465"
+set editor = vim

@@ -1,0 +1,35 @@
+"Plugins declaration
+call plug#begin()
+	Plug 'mattn/emmet-vim'
+	Plug 'sickill/vim-monokai'
+	Plug 'bling/vim-airline'
+	Plug 'ctrlpvim/ctrlp.vim'
+	Plug 'scrooloose/nerdtree'
+	Plug 'scrooloose/nerdcommenter' 
+	Plug 'scrooloose/syntastic'
+call plug#end()
+
+"Global settings
+colorscheme monokai
+set tabstop=4
+set textwidth=80
+set number
+set laststatus=2
+set t_Co=256  
+
+"4 spaces emmet identation
+let g:user_emmet_settings={
+\	'html': {
+\    	'indentation': '    '
+\	}
+\}
+
+"Syntastic default configuration
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
